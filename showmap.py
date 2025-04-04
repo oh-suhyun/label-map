@@ -20,9 +20,6 @@ import folium
 from streamlit_folium import st_folium
 
 
-# 페이지 설정
-st.set_page_config(layout="wide")
-
 # 데이터 불러오기
 df = pd.read_csv("map.csv")
 df = df.dropna(subset=['위도', '경도'])
