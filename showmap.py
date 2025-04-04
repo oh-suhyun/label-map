@@ -2,7 +2,7 @@ import streamlit as st
 
 # 페이지 설정 
 st.set_page_config(
-    page_title="지도 시각화 앱",
+    page_title="FairWork",
     page_icon="🗺️",
     layout="wide"
 )
