@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1rIsrVRExb2Y17gBEOYzknxW4F7DPq8Zp
 """
 
-pip install folium ipywidgets
+
 
 pip install streamlit streamlit-folium folium pandas
 
