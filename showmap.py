@@ -13,6 +13,13 @@ import folium
 from streamlit_folium import st_folium
 import streamlit as st
 
+st.set_page_config(
+    page_title="지도 시각화 앱",
+    page_icon="🗺️",  
+    layout="wide"
+)
+
+
 # 페이지 설정
 st.set_page_config(layout="wide")
 
