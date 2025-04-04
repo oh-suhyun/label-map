@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1rIsrVRExb2Y17gBEOYzknxW4F7DPq8Zp
 """
 
-
-import pandas as pd
-import folium
-from streamlit_folium import st_folium
 import streamlit as st
 
 st.set_page_config(
@@ -18,6 +14,10 @@ st.set_page_config(
     page_icon="🗺️",  
     layout="wide"
 )
+
+import pandas as pd
+import folium
+from streamlit_folium import st_folium
 
 
 # 페이지 설정
