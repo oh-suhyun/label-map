@@ -8,9 +8,6 @@ Original file is located at
 """
 
 
-
-pip install streamlit streamlit-folium folium pandas
-
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
