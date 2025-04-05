@@ -53,7 +53,7 @@ marker_cluster = MarkerCluster().add_to(m)
 for _, row in 선택_데이터.iterrows():
     folium.Marker(
         location=[row['위도'], row['경도']],
-        popup=f"{row['사업장명']}<br>체불액: {row['체불액(원)']}원",
+        popup=f"{row['사업장명']}<br>체불액: {row['체불액(원)']}",
         tooltip=row['사업장명']
     ).add_to(marker_cluster)
 
