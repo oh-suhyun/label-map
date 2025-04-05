@@ -16,6 +16,9 @@ from folium.plugins import MarkerCluster
 df = pd.read_csv("map.csv")
 df = df.dropna(subset=['위도', '경도'])
 
+# 체불액을 정수로 변환
+df['체불액(원)'] = df['체불액(원)'].astype(int)
+
 # 시군구 정보 추출 함수
 def extract_city(addr):
     try:
