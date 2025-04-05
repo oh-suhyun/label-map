@@ -62,6 +62,7 @@ st_folium(m, width=1000, height=600)
 
 # 표 표시
 st.markdown("### 📋 사업장 목록")
-st.dataframe(선택_데이터[['사업장명', '소재지(사업장)', '체불액(원)']].reset_index(drop=True))
+st.dataframe(선택_데이터[['사업장명', '소재지(사업장)', '체불액(원)']].reset_index(drop=True).rename_axis('No').set_index(
+        pd.Index(range(1, len(선택_데이터) + 1))))
 
 
